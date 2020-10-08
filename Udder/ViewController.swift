@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         print("Initial View Controller loaded.")
     }
 
-
+    override func viewWillAppear(_ animated: Bool) {
+        print("Initial View Controller view will appear.")
+    }
 }
 
